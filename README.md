@@ -6,6 +6,6 @@
 
 [Spock FAQ](SPOCK-FAQ.md)
 
-[pgEdge Community License](LICENSE.md)
+[pgEdge Community License](PGEDGE-COMMUNITY-LICENSE.md)
 
 
