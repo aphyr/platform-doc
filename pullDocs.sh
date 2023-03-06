@@ -1,15 +1,15 @@
-doc="../platform-doc"
+pfdoc="../platform-doc"
 
 set -x
 
 cd ../nodectl
 git pull
-cp README.md    $doc/NODECTL-README.md
-#cp cli/*.md     $doc/.
-cp cli/doc/*.md $doc/doc/.
+cp README.md    $pfdoc/NODECTL-README.md
+cp cli/*.md     $pfdoc/cli/.
+cp cli/doc/*.md $pfdoc/cli/doc/.
 
 cd ../spock
 git pull
-cp README.md    $doc/SPOCK-README.md
-cp FAQ.md       $doc/SPOCK-FAQ.md
+cp README.md    $pfdoc/SPOCK-README.md
+cp FAQ.md       $pfdoc/SPOCK-FAQ.md
 
