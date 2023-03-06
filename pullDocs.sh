@@ -6,7 +6,7 @@ cd ../nodectl
 git pull
 cp README.md    $doc/NODECTL-README.md
 cp LICENSE.md   $doc/LICENSE.md
-cp cli/doc/*.md $doc/.
+cp cli/doc/*.md $doc/doc/.
 
 cd ../spock
 git pull
