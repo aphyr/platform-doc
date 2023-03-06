@@ -33,7 +33,7 @@ init               # Initialize a component
 
 ## `spock` - Logical and Multi-Active PostgreSQL node configuration
 ```
-install            # Install Postgres and configure with the SPOCK extension
+[install](nodectl-spock-install.md)            # Install Postgres and configure with the SPOCK extension
 validate           # Validate Pre-Req's for running advanced commands
 tune               # Tune for this configuration
 create-node        # Name this spock node
