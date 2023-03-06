@@ -32,11 +32,10 @@ init               # Initialize a component
 ```
 
 ## `spock` - Logical and Multi-Active PostgreSQL node configuration
-```
-[install](nodectl-spock-install.md)            # Install Postgres and configure with the SPOCK extension
-validate           # Validate Pre-Req's for running advanced commands
-tune               # Tune for this configuration
-create-node        # Name this spock node
+< [install](nodectl-spock-install.md)            # Install Postgres and configure with the SPOCK extension\
+[validate]()           # Validate Pre-Req's for running advanced commands\
+[tune]()               # Tune for this configuration\
+  create-node        # Name this spock node
 create-repset      # Define a replication set
 create-sub         # Create a subscription
 add-table-repset   # Add table[s] to a replication set
@@ -46,7 +45,7 @@ show-sub-table     # Display subscription table(s)
 wait-on-sub-sync   # Pause until subscription is synched
 health-check       # Check if PG is accepting connections
 metrics-check      # Retrieve OS & DB metrics
-```
+
 
 ## `cluster` - Installation and configuration of a pgEdge SPOCK cluster
 ```
