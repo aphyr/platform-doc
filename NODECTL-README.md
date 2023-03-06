@@ -9,12 +9,12 @@ We are licensed under the pgEdge Community License 1.0
     ./nodectl <module> <command> [parameters] [options] 
 
 ## um - Update Manager commands
-[**list**](doc/um-list.md) - Display available/installed components<br>
-[**update**](doc/um-update.md)  - Retrieve new list of components & update nodectl<br>
-[**install**](doc/um-install.md) - Install a component (eg pg15, spock, postgis, etc)<br>
-[**remove**](doc/um-remove.md) - Un-install component<br>
-[**upgrade**](doc/um-upgrade.md) - Perform an upgrade of a component<br>
-[**clean**](doc/um-clean.md) - Delete downloaded component files from local cache<br>
+[**list**](cli/doc/um-list.md) - Display available/installed components<br>
+[**update**](cli/doc/um-update.md)  - Retrieve new list of components & update nodectl<br>
+[**install**](cli/doc/um-install.md) - Install a component (eg pg15, spock, postgis, etc)<br>
+[**remove**](cli/doc/um-remove.md) - Un-install component<br>
+[**upgrade**](cli/doc/um-upgrade.md) - Perform an upgrade of a component<br>
+[**clean**](cli/doc/um-clean.md) - Delete downloaded component files from local cache<br>
 
 
 ## service - Service control commands
