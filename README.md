@@ -1,14 +1,16 @@
+# pgEdge Platform Documentation
 
-### [Getting Started Guide](cli/GETTING-STARTED.md)
 
-### NodeCtl CLI
-- [Update Manager](cli/UM-README.md)
-- [Service Controller](cli/SERVICE-README.md)
-- [Spock Multi-active replication controller](cli/SPOCK-README.md)
-- [Cluster controller](cli/CLUSTER-README.md)
-
+### [Getting Started Guide with pgEdge Platform](cli/GETTING-STARTED.md)
 
 ### [Spock Documentation](SPOCK-README.md)
+
+### NodeCtl Command Line Interface:
+##### [Update Manager](cli/UM-README.md)
+##### [Service Controller](cli/SERVICE-README.md)
+##### [Spock Multi-active Replication Controller](cli/SPOCK-README.md)
+##### [Cluster Controller](cli/CLUSTER-README.md)
+
 
 ### [pgEdge Community License](PGEDGE-COMMUNITY-LICENSE.md)
 
