@@ -13,3 +13,5 @@ git pull
 cp README.md    $pfdoc/SPOCK-README.md
 cp FAQ.md       $pfdoc/SPOCK-FAQ.md
 
+rm $pfdoc/cli/README.md
+
