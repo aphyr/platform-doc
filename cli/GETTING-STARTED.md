@@ -55,26 +55,26 @@ Using nodectl on each node, create the spock components needed for replication. 
 
 Node `n1` (IP address 10.1.2.5):
 <pre>
-./nc spock create-node n1 "host=10.1.2.5 user=pgedge dbname=demo" demo
-./nc spock create-repset demo_replication_set demo
+./nc spock node-create n1 "host=10.1.2.5 user=pgedge dbname=demo" demo
+./nc spock repset-create demo_replication_set demo
 </pre>
 
 Node `n2` (IP address 10.2.2.5):
 <pre>
-./nc spock create-node n2 'host=10.2.2.5 user=pgedge dbname=demo' demo
-./nc spock create-repset demo_replication_set demo
+./nc spock node-create n2 'host=10.2.2.5 user=pgedge dbname=demo' demo
+./nc spock repset-create demo_replication_set demo
 </pre>
 
 Next, use nodectl to create the subscriptions. For these commands you will provide the subscription name, the network address for the node this one is subscribing to, and the database name.
 
 Node `n1`:
 <pre>
-./nc spock create-sub sub_n1n2 'host=10.2.2.5 port=5432 user=pgedge dbname=demo' demo
+./nc spock sub-create sub_n1n2 'host=10.2.2.5 port=5432 user=pgedge dbname=demo' demo
 </pre>
 
 Node `n2`:
 <pre>
-./nc spock create-sub sub_n2n1 'host=10.1.2.5 port=5432 user=pgedge dbname=demo' demo
+./nc spock sub-create sub_n2n1 'host=10.1.2.5 port=5432 user=pgedge dbname=demo' demo
 </pre>
 
 At this point, you will have a two node cluster with cross subscriptions on `n1` to `n2` and `n2` to `n1`. For replication to begin, you will need to add tables to the replication sets and then add those replications to the subscriptions. For this demo, I will be using pgBench to set up a very simple four table database.
