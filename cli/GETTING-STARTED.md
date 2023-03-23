@@ -22,13 +22,13 @@ On EL8+ systems, we’ll make sure these packages are installed:<br><br>
 
 On Debian based systems, we'll make sure the native packages are installed:<br><br>
 <pre>
-apt install -y python3 python3-devel python3-psutil
+apt install -y python3 python3-dev python3-psutil
 </pre>
 
 On both EL8+ & Debian based systems, we'll make sure the latest `pip3` is installed and
-then install psycopg3 as follows:<br><br>
+then install psycopg3 and six as follows:<br><br>
 <pre>
-pip3 install psycopg psycopg-binary --user
+pip3 install psycopg psycopg-binary six --user
 </pre>
 
 ## Installation
